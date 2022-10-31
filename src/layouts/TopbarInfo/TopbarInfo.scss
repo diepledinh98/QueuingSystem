@@ -1,0 +1,57 @@
+.Topbar_info {
+    display: flex;
+    padding-right: 64px;
+
+
+    .icon__info {
+        margin-top: 28px;
+        line-height: 32px;
+        width: 32px;
+        height: 32px;
+        background: #FFF2E7;
+        border-radius: 32px;
+        color: #FFAC6A;
+        cursor: pointer;
+        margin-right: 24px;
+
+    }
+
+
+
+    .info__user {
+        display: flex;
+        margin-top: 24px;
+        gap: 8px;
+
+        .img__user {
+            width: 40px;
+            height: 40px;
+            border-radius: 48px;
+
+        }
+
+        .info__detail {
+            width: 124px;
+            height: 42px;
+            line-height: 42px;
+            margin-top: -10px;
+
+            .hello {
+                height: 18px;
+                font-weight: 400;
+                font-size: 12px;
+                color: #7E7D88;
+                margin-bottom: 0;
+            }
+
+            .info {
+                height: 24px;
+                font-weight: 700;
+                font-size: 16px;
+                color: #535261;
+                margin-top: 0;
+            }
+
+        }
+    }
+}

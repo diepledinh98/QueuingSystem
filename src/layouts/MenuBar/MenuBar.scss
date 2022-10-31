@@ -1,0 +1,70 @@
+.menubar {
+    box-sizing: border-box;
+
+    .sibar__menu {
+        background-color: #ffff;
+        width: 200px;
+        height: 100vh;
+
+        .menubar__logo {
+            margin: 32px 60px 0px 60px;
+        }
+
+        .menu__item {
+            padding-left: 0;
+            background-color: #ffff;
+            width: 200px;
+            height: 48px;
+            margin: 0;
+            color: #7E7D88;
+            font-weight: 400;
+            font-size: 16px;
+            padding: 12px 12px 12px 4px;
+
+            .icon {
+                font-size: 20px;
+                font-weight: 400;
+                color: #7E7D88;
+                margin-right: 8px;
+            }
+
+            &::after {
+                display: none;
+            }
+
+            &:hover {
+                color: #FF7506;
+                background: #FFF2E7;
+            }
+
+            &:hover .icon {
+                color: #FF7506;
+                background: #FFF2E7;
+            }
+        }
+
+        .menu__item-logout {
+            padding-left: 0;
+            width: 176px;
+            height: 48px;
+            background: #FFF2E7;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 400;
+            color: #FF7506;
+            margin-left: 12px;
+            margin-top: 170px;
+
+            &::after {
+                display: none;
+            }
+
+            .icon-logout {
+                margin-right: 12px;
+                font-size: 20px;
+                font-weight: 400;
+            }
+        }
+
+    }
+}
