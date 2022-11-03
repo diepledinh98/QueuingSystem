@@ -88,11 +88,13 @@ const MenuBar = () => {
                         </Menu.ItemGroup>
                     </SubMenu> */}
 
-                    <Menu.Item key='Dashboard' className='menu__item-logout' onClick={handleLogout}>
-                        <LogoutOutlined className='icon-logout' />
-                        Đăng xuất
-                    </Menu.Item>
+
                 </Menu>
+
+                <div key='Dashboard' className='menu__item-logout' onClick={handleLogout}>
+                    <LogoutOutlined className='icon-logout' />
+                    Đăng xuất
+                </div>
             </Sider>
         </div>
     )

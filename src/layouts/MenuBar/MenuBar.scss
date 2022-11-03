@@ -4,7 +4,7 @@
     .sibar__menu {
         background-color: #ffff;
         width: 200px;
-        height: 100vh;
+        height: 100%;
 
         .menubar__logo {
             margin: 32px 60px 0px 60px;
@@ -44,7 +44,7 @@
         }
 
         .menu__item-logout {
-            padding-left: 0;
+            padding-left: 12px;
             width: 176px;
             height: 48px;
             background: #FFF2E7;
@@ -54,9 +54,15 @@
             color: #FF7506;
             margin-left: 12px;
             margin-top: 170px;
+            line-height: 48px;
+            cursor: pointer;
 
             &::after {
                 display: none;
+            }
+
+            &:hover {
+                opacity: 0.8;
             }
 
             .icon-logout {
